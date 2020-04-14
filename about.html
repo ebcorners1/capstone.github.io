@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>My Ahahs Collection</title>
+<!-- 
+
+Highway Template
+
+https://templatemo.com/tm-520-highway
+
+-->
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/fontAwesome.css">
+        <link rel="stylesheet" href="css/light-box.css">
+        <link rel="stylesheet" href="css/templatemo-style.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Kanit:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+
+<body>
+
+  <nav>
+    <div class="logo">
+        <a href="index.html">My Ahas <em>Collection</em></a>
+    </div>
+  <div class="menu-icon">
+    <span></span>
+  </div>
+  <!-- Added menu bar - Start-->
+    <div class="bar-menu">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="active" href="about.html">About Me</a>
+            </li>
+            <li>
+                <a href="blog.html">My Ahas</a>
+            </li>
+        </ul>
+    </div>
+<!-- Added menu bar - Stop-->
+</nav>
+
+<!-- Moved the overlay menu from the bootom - Start-->
+  <div class="overlay-menu">
+    <div class="container">
+      <div class="row">
+        <div class="main-menu">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About Me</a>
+                </li>
+                <li>
+                    <a href="blog.html">My Ahas</a>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Moved the overlay menu from the bootom - Stop-->
+    <header>
+        <div class="page-heading">
+            <div class="container">
+                <div class="heading-content">
+                    <h1>About <em>Me</em></h1>
+                </div>
+                <div class="pic_credit">
+                    <!-- <p>Photo by Khai Truong on Unsplash</p> -->
+                    <p>Photo by Noémi Macavei-Katócz on Unsplash</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="more-about-us">
+        <div class="container">
+            <div class="col-md-7 col-md-offset-5">
+                <div class="content">
+                    <div class="description">
+                        <h2>Who <em>I am</em></h2>
+                        <h3>A normal guy that follows his "Big 5 for life"</h3>
+                        <p>Hi, I am Fabio a normal guy with a normal job and I would say a normal life. All this was fine, but just fine.
+                        <br><br>By chance I read the book "The why cafe" and this opened my eyes...</p>
+                        <!-- <div class="simple-btn">
+                            <a href="#">Continue Reading</a>
+                        </div> -->
+                    </div>
+                    <!-- Contact form - Start-->
+                    <div class="contact_title">
+                        <h2>Contact <em>Me</em></h2>
+                            <p>Swing by for a cup of coffee, or leave us a message:</p>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <form action="/action_page.php" id="msgform">
+                                <label class="field_CF" for="name">Your Name</label>
+                                <input type="text" id="name" name="firstname" placeholder="Your name..">
+                                <label class="field_CF" for="email">Email</label>
+                                <input type="text" id="email" name="email" placeholder="Your email..">
+                                <label class="field_CF" for="subject">Message</label>
+                                <textarea id="subject" name="message" placeholder="Your message..." style="height:170px" form="msgform"></textarea>
+                                <input type="submit" value="Submit">
+                            </form>
+                        </div>
+                    </div>
+                    <!-- Contact form - Stop-->
+                </div>
+            </div>
+        </div>          
+    </div>
+
+
+
+
+    <footer>
+        <div class="container-fluid">
+            <div class="col-md-12">
+                <p>Copyright &copy; 2020 Web design for everyone, Capstone | Fabio Abbruzzesi</p>
+            </div>
+        </div>
+    </footer>
+
+
+      <!-- Modal button -->
+    <div class="popup-icon">
+      <button id="modBtn" class="modal-btn"><img src="img/contact-icon.png" alt=""></button>
+    </div>  
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+      <!-- Modal Content -->
+      <div class="modal-content">
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h3 class="header-title">Share  <em>your ahas</em></h3>
+          <div class="close-btn"><img src="img/close_contact.png" alt=""></div>    
+        </div>
+        <!-- Modal Body -->
+        <div class="modal-body">
+          <div class="col-md-6 col-md-offset-3">
+            <form id="contact" action="#" method="post">
+                <div class="row">
+                    <div class="col-md-12">
+                      <fieldset>
+                        <input name="name" type="text" class="form-control" id="id_name" placeholder="Your name..." required="">
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <input name="email" type="email" class="form-control" id="id_email" placeholder="Your email..." required="">
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <textarea name="message" rows="6" class="form-control" id="id_message" placeholder="Your message..." required=""></textarea>
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <button type="submit" id="form-submit" class="btn">Send Message Now</button>
+                      </fieldset>
+                    </div>
+                </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+    <script src="js/vendor/bootstrap.min.js"></script>
+    
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
